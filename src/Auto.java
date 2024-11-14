@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Auto extends Transporte {
     String tipo;
     int cilindraje;

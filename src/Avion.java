@@ -13,7 +13,7 @@ public class Avion extends Transporte{
     public String getTipo() {
         return tipo;
     }
-    public void setTipo(String tipo) {
+    public void setTipo() {
         this.tipo = tipo;
     }
     public double getAlturaMaxima() {
@@ -26,6 +26,7 @@ public class Avion extends Transporte{
     //METODO PERSONALIZADO
 
     public void darAviso(){
-        System.out.println("Ponerse el cinturon");
+        System.out.println("El tipo de avion es: " + tipo);
+        System.out.println("El altura maxima es: " + alturaMaxima);
     }
 }

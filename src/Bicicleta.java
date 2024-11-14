@@ -29,7 +29,7 @@ public class Bicicleta extends Transporte{
 
     //METODO PERSONALIZADO
     public void prenderLuces() {
-        System.out.println("Se prenden las luces");{
-        }
+        System.out.println("El tipo de bicicleta es: " + tipo);
+        System.out.println("El velocidad es: " + velocidad);
     }
 }
